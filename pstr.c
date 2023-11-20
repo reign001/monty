@@ -1,4 +1,3 @@
-pstr.c
 #include "monty.h"
 /**
  * f_pstr - prints the string starting at the top of the stack,
@@ -22,5 +21,5 @@ void f_pstr(stack_t **head, unsigned int counter)
 		printf("%c", h->n);
 		h = h->next;
 	}
-	printf("\n")
+	printf("\n");
 }

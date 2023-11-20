@@ -1,5 +1,5 @@
-queue.c
 #include "monty.h"
+#include <stdlib.h>
 /**
  * f_queue - prints the top
  * @head: stack head
